@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+#header>nav{
+    height: 10vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    &>#right_side{
+        margin-right: 5vw;
+        &>input{
+            border-radius: 5px;
+            height: 5vh;
+            color: white;
+
+            &[type="submit"]{
+                background-color: rgba(0, 0, 0, 0);
+                border: 1px solid white;
+                width: 8vw;
+            }
+
+            &[type="button"]{
+                background-color:#4C5FD5;
+                width: 5vw;
+            }
+        }
+    }
+
+    &>#left_side{
+        margin-left: 5vw;
+
+        &>a{
+            color: white;
+            text-decoration: none;
+        }
+    }
+}

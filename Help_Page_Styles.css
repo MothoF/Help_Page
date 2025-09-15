@@ -38,3 +38,8 @@ body{
         }
     }
 }
+
+#banner{
+    background-color:#dadbf1;
+    height: 60vh;
+}

@@ -40,6 +40,22 @@ body{
 }
 
 #banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#dadbf1;
     height: 60vh;
+
+    &>#banner_content{
+        margin: auto;
+
+        &>h1{
+            font-size: 50px;
+        }
+
+        &>#search_bar>form>input[type="text"]{
+            width: 26.5vw;
+            height: 2.5vh;
+        }
+    }
 }

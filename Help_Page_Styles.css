@@ -50,12 +50,33 @@ body{
         margin: auto;
 
         &>h1{
-            font-size: 50px;
+            font-size: 65px;
         }
 
         &>#search_bar>form>input[type="text"]{
-            width: 26.5vw;
-            height: 2.5vh;
+            width: 35vw;
+            height: 4vh;
+        }
+    }
+}
+
+#options{
+    margin: auto;
+    width: 80vw;
+    padding-top: 5vh;
+    height: 70vh;
+
+    &>#options_top_row, &>#options_middle_row, &>#options_bottom_row{
+        display: flex;
+        justify-content: space-between;
+        height: calc((5/15)*70vh);
+
+        &>div{
+            width: calc((4.5/10)*85vw);
+
+            &>a{
+                text-decoration: none;
+            }
         }
     }
 }

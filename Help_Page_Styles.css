@@ -62,7 +62,7 @@ body{
 
 #options{
     margin: auto;
-    width: 80vw;
+    width: 70vw;
     padding-top: 5vh;
     height: 70vh;
 
@@ -72,7 +72,7 @@ body{
         height: calc((5/15)*70vh);
 
         &>div{
-            width: calc((4.5/10)*85vw);
+            width: calc((3.5/10)*85vw);
 
             &>a{
                 text-decoration: none;

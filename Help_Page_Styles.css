@@ -54,7 +54,7 @@ body{
         }
 
         &>#search_bar>form>input[type="text"]{
-            width: 35vw;
+            width: 33vw;
             height: 4vh;
         }
     }
@@ -74,9 +74,20 @@ body{
         &>div{
             width: calc((3.5/10)*85vw);
 
-            &>a{
+            &>div>a{
                 text-decoration: none;
             }
+        }
+    }
+
+    &>#options_top_row>#options_top_row_left, &>#options_top_row>#options_top_row_right{
+        display: flex;
+        justify-content: space-between;
+        &>#top_row_left_image>img, &>#top_row_right_image>img{
+            width: 5vw;
+            height: 7.5vh;
+            padding-top: 5vh;
+            padding-right: 1vw;
         }
     }
 }

@@ -64,12 +64,18 @@ body{
     margin: auto;
     width: 70vw;
     padding-top: 5vh;
-    height: 70vh;
+    height: 75vh;
+    padding-bottom: 5vh;
+
+    &>#options_middle_row{
+        padding-bottom: 4vh;
+    }
 
     &>#options_top_row, &>#options_middle_row, &>#options_bottom_row{
         display: flex;
         justify-content: space-between;
         height: calc((5/15)*70vh);
+
 
         &>div{
             width: calc((3.5/10)*85vw);
@@ -81,13 +87,13 @@ body{
     }
 
     &>#options_top_row>#options_top_row_left, &>#options_top_row>#options_top_row_right,
-    &>#options_middle_row>#options_middle_row_left{
+    &>#options_middle_row>#options_middle_row_left, &>#options_bottom_row>#options_bottom_row_left{
 
         display: flex;
         justify-content: space-between;
 
         &>#top_row_left_image>img, &>#top_row_right_image>img,
-        &>#middle_row_left_image>img{
+        &>#middle_row_left_image>img, &>#bottom_row_left_image>img{
 
             width: 5vw;
             height: 7.5vh;
@@ -98,10 +104,10 @@ body{
 
     }
 
-    &>#options_middle_row>#options_middle_row_right{
+    &>#options_middle_row>#options_middle_row_right, &>#options_bottom_row>#options_bottom_row_right{
             display: flex;
 
-            &>#middle_row_right_image>img{
+            &>#middle_row_right_image>img, &>#bottom_row_right_image>img{
                 width: 5vw;
                 height: 7.5vh;
                 padding-top: 5vh;

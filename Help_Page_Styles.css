@@ -1,6 +1,22 @@
 body{
     margin: 0px;
 }
+
+dialog{
+    margin: auto;
+    width: 40vw;
+    height: 20vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &>#search_button_content>button{
+        background-color: black;
+        color: white;
+    }
+    
+}
+
 #header>nav{
     height: 10vh;
     background-color: #000000;

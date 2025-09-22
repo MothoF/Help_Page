@@ -12,8 +12,12 @@ const searchTextElement = document.querySelector("body>#banner>#banner_content>#
 searchTextElement.addEventListener("keydown",(event) => {
     if (event.key == "Enter") {
         showDialog();
+        dialogElement.style.visibility = "visible";
     }
-});
+})
 
 const buttonElement = document.getElementById("search_dialog_close_button");
-buttonElement.addEventListener("click", closeDialog());
+buttonElement.addEventListener("click", () => {
+    closeDialog();
+    dialogElement.style.visibility = "hidden";
+})

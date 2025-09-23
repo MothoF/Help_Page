@@ -5,15 +5,18 @@ body{
 dialog{
     margin: auto;
     width: 40vw;
-    height: 20vh;
+    height: 21vh;
     background-color: #dadbf1;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* &>#search_button_content>button{
+    &>#search_dialog_content>button{
         background-color: black;
         color: white;
-    } */
+        height: 4vh;
+        width: 5vw;
+        border-radius: 5px;
+    }
     
 }
 

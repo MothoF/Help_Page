@@ -16,6 +16,10 @@ dialog{
         height: 4vh;
         width: 5vw;
         border-radius: 5px;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
     
 }
@@ -44,6 +48,10 @@ dialog{
             &[type="button"]{
                 background-color:#4C5FD5;
                 width: 5vw;
+            }
+
+            &:hover{
+                cursor: pointer;
             }
         }
     }

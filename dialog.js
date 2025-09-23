@@ -8,6 +8,10 @@ function closeDialog(){
     dialogElement.close();
 }
 
+window.addEventListener("load",() => {
+    dialogElement.style.visibility = "hidden";
+})
+
 const searchTextElement = document.querySelector("body>#banner>#banner_content>#search_bar>form>input[type='text']");
 searchTextElement.addEventListener("keydown",(event) => {
     if (event.key == "Enter") {

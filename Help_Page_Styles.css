@@ -6,14 +6,14 @@ dialog{
     margin: auto;
     width: 40vw;
     height: 20vh;
-    background-color: whitesmoke;
+    background-color: #dadbf1;
     display: flex;
     justify-content: center;
     align-items: center;
-    &>#search_button_content>button{
+    /* &>#search_button_content>button{
         background-color: black;
         color: white;
-    }
+    } */
     
 }
 

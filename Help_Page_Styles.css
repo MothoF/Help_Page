@@ -10,6 +10,7 @@ dialog{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
     &>#search_dialog_content>button{
         background-color: black;
         color: white;
@@ -83,6 +84,7 @@ dialog{
         &>#search_bar>form>input[type="text"]{
             width: 33vw;
             height: 4vh;
+            border-radius: 5px;
         }
     }
 }
